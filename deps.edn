@@ -1,0 +1,6 @@
+{:deps {org.clojure/math.combinatorics {:mvn/version "0.1.6"}}
+ :aliases
+       {:main-fn
+        {:exec-fn   combo-tinkoff/get-the-best
+         :exec-args {:prices [520 360 150 130 950 360 240 1030]
+                     :threshold 1225}}}}
